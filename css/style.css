@@ -1,0 +1,167 @@
+body {
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 5px 50px;
+}
+
+.navbar .container {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px 10px;
+}
+
+.logo {
+    padding: 5px 50px;
+    color: white;
+}
+
+.showcase {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 90px 0px;
+    background: #1F2937;
+    gap: 100px;; 
+}
+
+.showcase_text {
+    color: white;
+    padding-bottom: 10px;
+    margin: 10px;
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.showcase_title {
+    font-size: 48px;
+}
+
+.rectangle {
+   padding: 100px 150px;
+   background-color: black;
+}
+
+.signup1 {
+    height: 20px;
+    width: 70px; 
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: none;
+    color: white; 
+}
+
+.info_title {
+    display: flex;
+    justify-content: center;
+    margin: 25px 30px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.square_item {
+    background-color: white;
+    padding: 50px 50px;
+    width: 50px;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #3882F6;
+    margin-bottom: 15px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+    width: 100px 100px;
+}
+
+.item {
+    max-width: 180px;
+}
+
+.item-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 80px 250px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.quote-container {
+    display: flex; 
+    flex-direction: column;
+    background-color: #e5e7e5;
+    padding: 150px 300px; 
+}
+
+.quote-text {
+    display: flex; 
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+}
+
+.signature {
+    color: #1F2937;
+    display: flex;
+    justify-content: end;
+}
+
+.action-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 30px;
+    border-radius: 1em;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.hookline {
+    font-size: 18px;
+    color: white;
+}
+
+.signup2 {
+    height: 20px;
+    width: 80px; 
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: white;
+    border-style: solid;
+    color: white; 
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
